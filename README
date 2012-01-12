@@ -1,0 +1,14 @@
+japantz
+=======
+
+dummy repository for practice of packaging python code.
+
+WantToDo
+--------
+
+* git clone --> simple setup
+* make python egg
+* developping setup
+* (easy_install)
+* (pip)
+
