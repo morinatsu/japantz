@@ -1,0 +1,19 @@
+japantz makes datetime.tzinfo object of JST(Japan Standard Time).
+
+1. Import this package.
+
+>>> import datetime
+>>> from japantz import JapanTZ
+
+2. Make an instance.
+
+>>> jst = JapanTZ()
+
+3. Use it.
+
+>>> jst.tzname(datetime.datetime)
+'JST'
+>>> jst.utcoffset(datetime.datetime)
+datetime.timedelta(0, 32400)
+>>> jst.dst(datetime.datetime)
+datetime.timedelta(0)
